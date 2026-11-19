@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+}
+
+.small {
+  display: inline-block;
+  background: rgb(211, 86, 63);
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.big {
+  display: none;
+  background: #95cf0e;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 28px;
+}
+
+@media only screen and (min-width: 600px) {
+  .small {
+    display: none;
+  }
+
+  .big {
+    display: inline-block;
+  }
+}
